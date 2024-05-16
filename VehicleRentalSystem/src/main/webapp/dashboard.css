@@ -1,0 +1,172 @@
+/* General body styles */
+body {
+    font-family: Bahnschrift;
+    background-color: rgba(0, 0, 0,87);
+    margin: 0;
+    padding: 20px;
+    color: #fbf7f8;
+    display: flex; /* Set display to flex */
+    background-image: url('images/11.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat:no-repeat;
+    
+}
+
+
+/* Navigation styles */
+nav {
+    width: 200px; /* Adjust width as needed */
+    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    float: left; /* Float the navbar from the left */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li, .nav-details li {
+    margin: 0;
+    padding: 0;
+}
+
+.an {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.an:hover {
+    background-color: #555;
+}
+
+.nav-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    background-color: #ff004c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff224f;
+}
+
+.container {
+    margin-left: 220px; /* Adjust margin to accommodate navbar width */
+    padding: 20px; /* Add padding to separate from navbar */
+}
+
+/* Form styling */
+form {
+    background: rgba(51, 51,51, 0.7); /* Semi-transparent white background */
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for contrast */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Apply blur effect */
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Table container styles */
+.table-container {
+    background: rgba(51, 51, 51, 0.7); /* Semi-transparent white background */
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for contrast */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Apply blur effect */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th {
+    background-color: black;
+}
+
+
+/* Link styles */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add these styles for date container */
+/* Add these styles for clock */
+.clock {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+}
+/* Footer */
+.footer-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87); /* Adjust as needed */
+    color: #fbf7f8;
+    padding: 20px;
+    text-align: center;
+}

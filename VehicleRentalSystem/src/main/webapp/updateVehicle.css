@@ -1,0 +1,85 @@
+body {
+	font-family: Bahnschrift, Arial, sans-serif;
+    background-image: url(images/5.jpg); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 200px; /* Adjust width as needed */
+    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    float: left; /* Float the navbar from the left */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li, .nav-details li {
+    margin: 0;
+    padding: 0;
+}
+
+.an {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.an:hover {
+    background-color: #555;
+}
+
+.nav-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the opacity as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff004c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Specify the duration for the transition */
+}
+
+button:hover {
+    background-color: #c50f46;
+}
